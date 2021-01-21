@@ -1,7 +1,14 @@
 @import './base/settings';
 @import './base/base';
+@import './components/Header';
+@import './components/CsvToJson';
+@import './components/JsonToCsv';
 
 .container{
     width: 80%;
     margin:0 auto;
+}
+
+ul{
+    margin: 4rem 0;
 }

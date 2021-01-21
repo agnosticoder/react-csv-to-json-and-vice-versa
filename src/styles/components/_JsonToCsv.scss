@@ -1,0 +1,27 @@
+.csv-output-container{
+    font-family: 'Source Code Pro', monospace;
+    color: lighten($fifth, 3%);
+    width: 100%;
+    max-width: 50rem;
+    margin: 2rem 0;
+    height: 20rem;
+    overflow: auto;
+    // overflow-wrap: break-word;
+}
+
+
+.output-container{
+    scroll-behavior: auto;
+    font-family: 'Source Code Pro', monospace;
+    width: 100%;
+    max-width: 50rem;
+    height: 20rem;
+    margin: 2rem 0;
+    background-color: $third;
+    color: $first;
+
+    pre{
+        color: white;
+        font-size: 1rem;
+    }
+}
